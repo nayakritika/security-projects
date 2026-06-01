@@ -67,3 +67,7 @@ Incident response for a Docker/UFW firewall bypass exposing CouchDB publicly —
 
 Ritika Nayak — MSc Security & Network Engineering (OS3), University of Amsterdam | B.Tech Electronics & Telecommunications | Ex-IBM · Ex-Accenture · iSHARE Foundation
 `ritikanayakwork@gmail.com` · [LinkedIn](https://www.linkedin.com/in/nayak-ritika/)
+
+---
+
+Note: Code is not published in compliance with university academic integrity policy — each file documents methodology, findings, and tools used.
