@@ -39,8 +39,14 @@ Designed a repeater protocol extension (67-SEC) adding HMAC-based message authen
 
 ### Offensive Security
 
-**penetration-testing-and-side-channel**
-Penetration testing against DNS, IDS, and web applications; implemented timing and power analysis side-channel attacks to extract cryptographic keys; documented attack methodology and mitigations. `Metasploit` `Burp Suite` `Wireshark` `Nmap` `Side-channel Analysis`
+**side-channel-analysis**
+Recovered a full 128-bit AES key from a ChipWhisperer Nano using Correlation Power Analysis — captured 200 power traces during live AES encryptions, applied Pearson correlation against Hamming weight predictions, recovered complete key with 200 traces. `ChipWhisperer` `Python` `CPA` `AES-128`
+
+**network-security-attacks**
+MITM attack via ARP spoofing + DNS spoofing using Ettercap to redirect victim traffic; DNS covert channel using iodine achieving 0.8–1.5 Mbits/sec through firewall-permitted DNS traffic. `Ettercap` `iodine` `Kali Linux` `Wireshark`
+
+**cracking-wep**
+Full WEP key recovery using the PTW statistical attack — 196,668 packets captured, 73,077 IVs collected, key recovered with 100% certainty. Demonstrates why IV reuse makes RC4-based Wi-Fi encryption fundamentally broken. `Kali Linux` `aircrack-ng` `RC4` `PTW Attack`
 
 ---
 
