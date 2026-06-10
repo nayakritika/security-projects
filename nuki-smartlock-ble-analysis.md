@@ -1,4 +1,4 @@
-# Nuki Smart Lock 2.0 — BLE Security Analysis
+# Nuki Smart Lock 2.0 - BLE Security Analysis
 
 **TL;DR:** Security analysis of the Nuki Smart Lock 2.0 using BLE traffic capture, Android app reverse engineering (JADX + Frida), and cryptographic analysis. Found strong ECDH + XSalsa20-Poly1305 implementation with no critical vulnerabilities — remaining risks are local key storage and battery-based DoS.
 
